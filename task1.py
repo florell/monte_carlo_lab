@@ -48,7 +48,7 @@ def show_result():
             plt.scatter(*zip(*points_outside), color='red', s=1, label='Снаружи фигуры')
         plt.xlim(-2, 2)
         plt.ylim(-2, 2)
-        plt.legend()
+        plt.legend(loc='upper left')
         plt.gca().set_aspect('equal', adjustable='box')
         plt.title('Метод Монте-Карло: Вычисление площади фигуры')
         plt.show()

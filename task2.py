@@ -60,7 +60,7 @@ def show_result():
         plt.title('Интегрирование x / (1 + x^2) на [0, 1] методом Монте-Карло')
         plt.xlabel('x')
         plt.ylabel('x / (1 + x^2)')
-        plt.legend()
+        plt.legend(loc='upper left')
         plt.show()
 
     except ValueError:
